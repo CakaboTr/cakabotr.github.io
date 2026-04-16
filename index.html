@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAKADOKI - Android Uygulamaları</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #2C1810 0%, #1A0E08 50%, #0D0705 100%);
+            color: #F5E6D3;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 600px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 48px;
+            color: #E8A034;
+            letter-spacing: 4px;
+            margin-bottom: 16px;
+            font-weight: 800;
+        }
+        .tagline {
+            font-size: 18px;
+            opacity: 0.8;
+            margin-bottom: 40px;
+        }
+        .apps {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 16px;
+            margin-bottom: 40px;
+        }
+        .app {
+            background: rgba(232, 160, 52, 0.1);
+            border: 1px solid rgba(232, 160, 52, 0.3);
+            border-radius: 12px;
+            padding: 20px;
+            text-align: left;
+        }
+        .app-name {
+            font-size: 20px;
+            font-weight: 700;
+            color: #E8A034;
+            margin-bottom: 4px;
+        }
+        .app-desc {
+            font-size: 14px;
+            opacity: 0.8;
+        }
+        .footer {
+            font-size: 14px;
+            opacity: 0.6;
+            margin-top: 20px;
+        }
+        .footer a {
+            color: #E8A034;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>LAKADOKI</h1>
+        <p class="tagline">Android Uygulama Geliştiricisi</p>
+        <div class="apps">
+            <div class="app">
+                <div class="app-name">Micro Journal</div>
+                <div class="app-desc">Sade ve hizli gunluk yazma uygulamasi</div>
+            </div>
+            <div class="app">
+                <div class="app-name">Barista Sensin</div>
+                <div class="app-desc">Turkce kahve demleme ve tarif uygulamasi</div>
+            </div>
+            <div class="app">
+                <div class="app-name">SleepScape</div>
+                <div class="app-desc">Uyku icin rahatlatici sesler ve beyaz gurultu</div>
+            </div>
+            <div class="app">
+                <div class="app-name">Betix</div>
+                <div class="app-desc">Iddaa oran analiz uygulamasi</div>
+            </div>
+        </div>
+        <div class="footer">
+            Iletisim: <a href="mailto:lakadokistore@gmail.com">lakadokistore@gmail.com</a>
+        </div>
+    </div>
+</body>
+</html>
